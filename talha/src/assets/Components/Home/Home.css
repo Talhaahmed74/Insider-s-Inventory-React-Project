@@ -1,0 +1,76 @@
+.Home-Page-section{
+    background-color: #0F2928;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding: 12.5% 18%;
+}
+.sub-Heading {
+    font-size: 20px;
+}
+.main-Heading {
+    font-size: 70px;
+    text-align: center;
+    line-height: 78px;
+}
+
+.main-Heading span {
+    color: #4DAD49;
+    font-size: 70px;
+}
+
+.text-Div {
+    font-size: 16px;
+    text-align: center;
+    line-height: 22px;
+    padding: 0px 16%;
+}
+
+.btn-Div {
+    display: flex;
+    gap: 20px;
+}
+
+.OffMarket-Property-sec2 {
+    display: flex;
+    padding: 5%;
+    justify-content: space-between;
+    gap: 8px;
+}
+
+.sub-Heading-sec2{
+    display: flex;
+    gap: 18px;
+}
+.sub-Heading-sec2 h2{
+    font-size: 37px;
+}
+
+.sub-Heading-sec2 h2 span{
+    margin-left: 10px;
+    color: #4DAD49;
+    font-size: 37px;
+}
+
+.Arrow-btn-Div{
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+    height: auto;
+    width: 100%;
+    max-width: 70px;
+}
+
+.Arrow-btn-Div img{
+   height: 40px;
+   
+}
+
+.OffMarket-Property-cards{
+    display: flex;
+    gap: 15px;
+    margin: 0px 100px;
+}

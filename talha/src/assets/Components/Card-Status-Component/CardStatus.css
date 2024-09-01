@@ -1,0 +1,17 @@
+.status-Div {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0F2928;
+    color: white;
+    border-radius: 5px;
+    font-size: 14px;
+    text-align: center;
+    min-width: 100px;
+    position: absolute;
+}
+
+.status-Div h2 {
+    margin: 0;
+    font-size: 14px;
+    font-weight: normal;
+}

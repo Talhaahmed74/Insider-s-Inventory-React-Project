@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+  font-family: Lato, sans-serif;
+  font-weight: 300;
+}
+
+.list-Content {
+  display: flex;
+  gap: 12px;
+  margin: 10px;
+  width: 100%;
+  max-width: 700px;
+  height: 50px;
+  text-align: left;
+}
+
+.list-Content li {
+  list-style: none;
+  font-size: 17px;
+  cursor: pointer;
+  padding: 5px 0;
+  position: relative;
+  color: #fff;
+}
+
+.list-Content li::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  background-color: #4dad49;
+  transition: width 0.3s ease;
+}
+
+.list-Content li:hover::after {
+  width: 100%;
+}

@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+* {
+    font-family: Lora, sans-serif;
+    font-size: 17px;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: #fff;
+}
+
+body {
+    background-color: #0F2928;
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.masterLogin-Content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    max-width: 600px;
+    padding: 20px;
+}
+
+.name-Div h2{
+    font-size: 30px;
+}
+.masterLogin-Content h1{
+    font-size: 20px;
+    margin-top: 30px;
+    font-weight: 500;
+    margin: 50px 0 20px;
+}
+
+.logo-Div {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+
+}
+
+.logo-Div img {
+    width: auto; 
+    height: 210px; 
+    object-fit: contain; 
+}
+.name-Div {
+    display: flex;
+    gap: 10px;
+}
+
+.name-Div p {
+    color: #fff;
+    font-weight: 700;
+}
+
+h1 {
+    font-size: 20px;
+}
+
+.input-Div {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+    max-width: 500px;
+    gap: 15px;
+    padding-top: 25px;
+}
+
+.input-para {
+    font-size: 12px;
+    position: absolute;
+    left: 4px;
+    top: 0px;
+    font-weight: 400;
+    padding-top: 6.5px;
+}
+
+.remember-Div {
+    display: flex;
+    gap: 20px;
+}
+
+.remember-Div a {
+    margin: 7px 0 0 90px;
+    color: #4DAD49;
+    font-size: 13.2px;
+    font-weight: 500;
+}
+
+.remember-Div label {
+    font-size: 13.2px;
+    font-weight: 500;
+    margin: 7px 0 0 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px; 
+}
+
+form{
+    width: 100%;
+    padding: 0 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.custom-checkbox {
+    background-color: transparent; 
+    appearance: none; 
+    border: 1px solid #fff; 
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+}
+
+.custom-checkbox:checked {
+    background-color: #4DAD49; 
+    border: 1px solid #4DAD49;
+}
