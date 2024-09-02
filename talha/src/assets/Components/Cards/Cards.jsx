@@ -3,14 +3,13 @@ import './Cards.css'
 import Btn from '../Btn/Btn'
 import Property from '../../imgs/Property.png'
 import location from '../../imgs/location.png'
-export default function Cards() {
+import CardStatus from '../Card-Status-Component/CardStatus'
+export default function Cards({status}) {
   return (
     <div className='cards-Div'>
       <div className="img-Div">
         <img src={Property} alt=''></img>
-        <div className='status-Div'>
-            <h2 >Vacant</h2>
-        </div>
+          <CardStatus status={status}/>
       </div>
          <div className="property-info-div">
                 <div className='card-section' >

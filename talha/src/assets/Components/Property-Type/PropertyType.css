@@ -1,0 +1,40 @@
+.content-Div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    max-width: 400px;
+    align-items: center;
+    text-align: center; 
+}
+
+.picture-Div {
+    width: 300px;
+    height: 300px; 
+    border-radius: 50%;
+    overflow: hidden; 
+}
+
+.picture-Div img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    border-radius: 50%;
+}
+
+.PropertyFeature {
+    display: flex;
+    justify-content: center;
+}
+
+.PropertyFeature h3 {
+    color: #3C3C3C;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.PropertyDescription p {
+    color: #3C3C3C;
+    font-size: 16px;
+    font-weight: 400;
+}

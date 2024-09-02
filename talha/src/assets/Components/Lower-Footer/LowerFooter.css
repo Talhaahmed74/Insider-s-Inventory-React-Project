@@ -1,44 +1,85 @@
 .lower-Footer {
-    background: #0F2928;
-    border-radius: 10px; 
-    height: 100vh; 
-    max-height: 300px;
-    width: 100%;
-    position: fixed;
-    bottom: 0;
-    z-index: 1;
-    padding: 20px 5%;
     display: flex;
     flex-direction: column;
+    background: #0F2928;
+    border-radius: 10px; 
+    width: 100vw;
+    position: relative;
+    z-index: 4;
+    padding: 20px ;
+    height: 100vh;
+    max-height: 300px;
     justify-content: space-between;
     box-sizing: border-box;
+    overflow: hidden; 
+    margin-top: -50px;
 }
 
-.footer-Logo {
-    max-width: 100%; /* Ensure logo is responsive */
+
+.footer-Logo-Div {
+    width: 100%; 
+    position: absolute;
+    left: 34px;
+    top: 60px;
+}
+
+.companyName-Div {
+    position: absolute;
+    top: 140px;
+    left: 44px;
+    display: flex;
+    gap: 7px;
+}
+
+.companyName-Div p {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.second-Text  {
+    color: #4DAD49;
+    margin-left: 10px;
 }
 
 .slogan-Div {
     color: #fff;
-    font-size: 14px;
+    font-size: 14.5px;
     font-weight: 300;
-    margin-bottom: 20px;
+    margin: 10px 0;
+    top: 155px;
+    left: 44px;
+    position: absolute;
+}
+
+.list-Div {
+    position: absolute;
+    display: flex;
+    top: 45px;
+    right: 60px;
+}
+
+.socialLinks-Div {
+    position: absolute;
+    justify-content: flex-end;
+    right: 160px;
+    top: 82px;
 }
 
 .footer-Copyrights {
+    position: absolute;
     color: #fff;
     margin: 10px auto;
     text-align: center;
+    bottom: 10px;
+    left: 500px;
 }
 
 hr {
-    border: 0.5px solid #fff;
+    position: absolute;
+    border: none; 
+    border-top: 1px solid #fff; 
     width: 100%;
-    margin: 10px auto;
-}
-
-
-.social-links-wrapper {
-    display: inline;
-    text-align: right; /* Aligns social links to the right */
+    bottom: 50px;
+    box-sizing: border-box; 
 }

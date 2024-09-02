@@ -1,3 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+*{
+    font-family: Lato , sans-serif;
+}
+
+body {
+    overflow-x: hidden; 
+}
 .Home-Page-section{
     background-color: #0F2928;
     color: white;
@@ -8,8 +17,9 @@
     gap: 15px;
     padding: 12.5% 18%;
 }
-.sub-Heading {
-    font-size: 20px;
+.sub-Heading-Div {
+    font-size: 22px;
+    font-weight: 500;
 }
 .main-Heading {
     font-size: 70px;
@@ -40,19 +50,21 @@
     justify-content: space-between;
     gap: 8px;
 }
-
 .sub-Heading-sec2{
     display: flex;
     gap: 18px;
+    margin-left: 25px
 }
 .sub-Heading-sec2 h2{
     font-size: 37px;
+    font-weight: 700;
 }
 
 .sub-Heading-sec2 h2 span{
     margin-left: 10px;
     color: #4DAD49;
     font-size: 37px;
+    font-weight: 700;
 }
 
 .Arrow-btn-Div{
@@ -74,3 +86,31 @@
     gap: 15px;
     margin: 0px 100px;
 }
+
+.offMarket-PropertyType-Div{
+    width: 100%;
+    margin: 5% 5%;
+}
+.offMarket-PropertyType-Div h2{
+    font-size: 44px;
+    font-weight: 700;
+    color:#3C3C3C;
+    margin: 0 26.5%;
+}
+
+.offMarket-PropertyType-Div h2 span{
+    color: #4DAD49;
+    font-size: 44px;
+    font-weight: 700;
+    margin-left: 10px;
+}
+
+.Types-Div{
+    display: flex;
+    justify-content: space-around;
+    padding: 0 140px 0 0;
+    margin: 2% 0;
+    gap: 25px;
+}
+
+

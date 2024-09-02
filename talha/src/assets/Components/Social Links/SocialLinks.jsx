@@ -7,10 +7,10 @@ import twitterLogo from '../../imgs/Twitter-logo.png'
 export default function SocialLinks() {
   return (
     <div className='Links'>
-      <img src={fbLogo} alt="Facebook" />
-      <img src={twitterLogo} alt="Twitter" />
-      <img src={linkdlnLogo} alt="LinkedIn" />
-      <img src={instaLogo} alt="Instagram" />
+      <a><img src={fbLogo} alt="Facebook" /></a>
+      <a><img src={twitterLogo} alt="Twitter" /></a>
+      <a><img src={linkdlnLogo} alt="LinkedIn"/></a>
+      <a><img src={instaLogo} alt="Instagram" /></a>
     </div>
   )
 }

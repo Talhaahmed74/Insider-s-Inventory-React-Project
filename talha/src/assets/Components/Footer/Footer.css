@@ -1,49 +1,33 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
-*{
-    font-family: Lato, sans-serif;
-    font-size: 17px;
-    padding: 0px;
-    margin: 0px;
-    box-sizing: border-box;
-}
 
-
-.footer-Content {
+.footer-upper {
+  background-color: #163231;
+  margin: 0px 5%;
+  border-radius: 20px;
+  z-index: 11;
   position: relative;
-  bottom: 250px;
 }
+
+.footer-building {
+  width: 35%;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+
+}
+
+.box {
+  width: 100%;
+  height: 80px;
+  background-color: red;
+}
+
 
 .footer-building-margin {
-  margin-top: 100px;
-  background-color: #fff;
-  position: relative;
+  margin-top: 200px;
 }
 
-.upper-Footer {
-  background-color: #163231;
- height: auto; 
-  max-height: 350px; 
-  border-radius: 20px;
-  width: 800px;
-  position: absolute;
-  top: -100px; 
-  z-index: 2;
-  left: 280px;
-  padding-bottom: 50px;
-  overflow: visible;
-  padding-left: 20px;
-  padding-right: 20px;
-}
-
-.building {
-  width: 30%; 
-  position: absolute;
-  max-height: 100vh;
-  bottom: 0px;
-  z-index: 1;
-}
-
-.upper-Footer-Signup {
+.footer-upper-right {
   padding: 30px 10%;
   color: white;
   display: flex;
@@ -51,28 +35,32 @@
   align-items: center;
   justify-content: center;
   gap: 20px;
-  width: 100%;
 }
 
-.upper-Footer-Signup .footer-Text {
-    font-weight: 500;
-    font-size: 14.5px;
-    justify-content: space-around;
-    padding: 0 25px;
-    letter-spacing: 1px; 
-    line-height: 1.5;
+.footer-heaing {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.footer-text {
+  font-size: 16px;
+  text-align: center;
+}
+
+@media screen and (min-width: 1160px) {
+  .footer-building-margin {
+      margin-top: 300px;
   }
-  
-.upper-Footer-Signup .heading {
-    font-size: 30px;
-    font-weight: 700;
-    justify-content: center;
-    margin-right: 35px;
+}
+
+@media screen and (min-width: 1422px) {
+  .footer-building-margin {
+      margin-top: 450px;
   }
-  
-.btn-Div {
-    margin-bottom: 20px;
-    width: 100%;
-    padding-bottom: 25px;
-    max-width: 280px;
+}
+
+@media screen and (min-width: 1600px) {
+  .footer-building-margin {
+      margin-top: 550px;
   }
+}
